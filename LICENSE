@@ -1,21 +1,23 @@
-MIT License
-
 Copyright (c) 2026 Vizbl
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Vizbl iOS SDK License
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This software is provided by Vizbl as a proprietary SDK.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Permission is granted to use the SDK solely for integrating Vizbl services
+into applications.
+
+You may:
+- use the SDK in your applications
+- distribute applications that include the SDK
+
+You may NOT:
+- distribute, sublicense, or resell the SDK as a standalone product
+- modify, reverse engineer, decompile, or disassemble the SDK
+- use the SDK outside of Vizbl services
+- use the SDK to build a competing product or service
+
+The SDK requires connection to Vizbl cloud services to function.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+Vizbl reserves the right to modify or revoke access to the SDK at any time.
