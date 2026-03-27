@@ -1,0 +1,64 @@
+/*
+  Localizable.strings
+  VizblSdk
+
+  Created by Vyacheslav Ksenofontov on 14.10.2023.
+  
+*/
+
+// MARK: - Common
+
+"cancel" = "Cancel";
+
+// MARK: - ARMainView
+
+"ARMainView.prepare" = "Point the camera at an empty horizontal surface and move the device slowly";
+
+// MARK: - ARCeilingView
+
+"ARCeilingView.Start.description" = "Place a marker on the border between the floor and the wall";
+"ARCeilingView.Finish.description" = "Swipe up and place the marker at the height of the ceiling";
+"ARCeilingView.Banner.description" = "Press if you want to change the ceiling height";
+"ARCeilingView.Banner.button" = "Ok";
+
+// MARK: - RetryStub
+
+"RetryStub.ErrorDescription.cameraAccess" = "The app needs access to the camera to show objects in augmented reality";
+"RetryStub.Button.allowAccess" = "Allow access";
+
+// MARK: - ErrorBanner
+
+"Banner.Error.noInternet" = "Bad network connection, try again later";
+"Banner.Error.serverError" = "Something went wrong, try again later";
+"Banner.Error.download" = "Bad internet connection, trying again";
+"Banner.Error.loadModel" = "Problems loading the object, try another one";
+
+// MARK: - QRCodeScannerView
+
+"QRCodeScannerView.title" = "Scan QR-code";
+"QRCodeScannerView.ScanError.description" = "This QR code is not valid,\ntry another one";
+"QRCodeScannerView.Button.cancel" = "Cancel";
+
+// MARK: - Tips
+
+"Tips.tapOnObject" = "Tap on an object to select it";
+"Tips.fingerToPosition" = "Tap on an object and move your finger to change the position of the object";
+"Tips.twoFingersToRotate" = "Use two fingers to rotate the object";
+
+// MARK: - ModelsPickerSheet
+
+"ModelsPickerSheet.title" = "Added models";
+
+// MARK: - Tips
+
+"Tips.tapToChangeColor" = "Tap to change the color";
+"Tips.tapToFinishEditing" = "Tap to finish editing the object";
+"Tips.tapToAddObject" = "Tap to add more objects to view";
+
+// MARK: - RoomPlan
+
+"RoomPlan.name.bedroom" = "Bedroom";
+"RoomPlan.name.bathroom" = "Bathroom";
+"RoomPlan.name.kitchen" = "Kitchen";
+"RoomPlan.name.livingRoom" = "Living Room";
+"RoomPlan.name.room" = "Room";
