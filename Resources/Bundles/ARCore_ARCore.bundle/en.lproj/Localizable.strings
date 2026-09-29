@@ -12,13 +12,17 @@
 
 // MARK: - ARMainView
 
-"ARMainView.prepare" = "Point the camera at an empty horizontal surface and move the device slowly";
+"ARMainView.prepare" = "Slowly move your camera around the room to detect a wall and place the item";
+"ARMainView.prepare.all" = "Slowly move your camera around the room to detect a wall and place the item";
+"ARMainView.prepare.floor" = "Slowly move your camera across the floor to place the item";
+"ARMainView.prepare.wall" = "Slowly move your camera around the room to detect a wall and place the item";
+"ARMainView.prepare.ceiling" = "Slowly move your camera across the ceiling to place the item";
 
 // MARK: - ARCeilingView
 
-"ARCeilingView.Start.description" = "Place a marker on the border between the floor and the wall";
-"ARCeilingView.Finish.description" = "Swipe up and place the marker at the height of the ceiling";
-"ARCeilingView.Banner.description" = "Press if you want to change the ceiling height";
+"ARCeilingView.Start.description" = "Place the marker where the floor meets the wall to begin measuring";
+"ARCeilingView.Finish.description" = "Swipe up until the line aligns with where the wall meets the ceiling";
+"ARCeilingView.Banner.description" = "Tap here to adjust the ceiling height";
 "ARCeilingView.Banner.button" = "Ok";
 
 // MARK: - RetryStub
@@ -38,6 +42,7 @@
 "QRCodeScannerView.title" = "Scan QR-code";
 "QRCodeScannerView.ScanError.description" = "This QR code is not valid,\ntry another one";
 "QRCodeScannerView.Button.cancel" = "Cancel";
+"QRCodeScannerView.openingLink" = "Opening link…";
 
 // MARK: - Tips
 
@@ -62,3 +67,30 @@
 "RoomPlan.name.kitchen" = "Kitchen";
 "RoomPlan.name.livingRoom" = "Living Room";
 "RoomPlan.name.room" = "Room";
+
+// MARK: - Scene Preparation
+
+"ScenePreparation.preparing" = "Preparing the scene…";
+"ScenePreparation.networkRetry" = "Network issue, trying again…";
+"ScenePreparation.object" = "Object";
+"ScenePreparation.objects" = "Objects";
+"ScenePreparation.hdr" = "HDR environment";
+"ScenePreparation.neuralNetwork" = "Neural network %@";
+
+// MARK: - Floor Plan (2D)
+
+"FloorPlan.style.schematic" = "Schematic";
+"FloorPlan.style.blueprint" = "Blueprint";
+"FloorPlan.style.detailed" = "Detailed";
+"FloorPlan.areaMode.total" = "Total";
+"FloorPlan.areaMode.perRoom" = "Per room";
+"FloorPlan.units.metric" = "Meters";
+"FloorPlan.units.imperial" = "Feet";
+"FloorPlan.unit.meter" = "m";
+"FloorPlan.unit.foot" = "ft";
+"FloorPlan.unit.squareMeter" = "m²";
+"FloorPlan.unit.squareFoot" = "ft²";
+
+// MARK: - Room Scan
+
+"RoomScan.noData" = "No scan data";
