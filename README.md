@@ -14,6 +14,15 @@ The SDK handles AR, placement, interaction, and UI automatically.
 - built-in interaction and controls
 - material / variant selection UI
 
+## Requirements
+
+- iOS 18.0 or later
+- Xcode 16 or later (the framework is built with library evolution enabled, so newer Xcode versions work too)
+- A physical device: AR does not run in the simulator
+- Camera permission (`NSCameraUsageDescription`) in your app's Info.plist
+
+No API key is needed in the app. Objects are referenced by their Object ID (UUID) or `tinuuid`, both shown in your Vizbl cabinet and returned by the Vizbl API.
+
 ## Installation
 
 ### Swift Package Manager
@@ -27,8 +36,16 @@ In Xcode:
 https://github.com/VIZBL/vizbl-ios-sdk
 ```
 
-3. Select a version rule, for example **Up to Next Major**
+3. Select a version rule: **Up to Next Major** from `1.0.23` (the current release; tags have no `v` prefix)
 4. Select the product `VizblKit`
+
+Or in `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/VIZBL/vizbl-ios-sdk.git", from: "1.0.23")
+]
+```
 
 Then import the SDK:
 
@@ -38,7 +55,7 @@ import VizblKit
 
 ## Usage
 
-Minimal example:
+Minimal example: a button that opens the AR view with one object.
 
 ```swift
 import SwiftUI
@@ -46,20 +63,27 @@ import VizblKit
 
 struct ContentView: View {
     @StateObject private var controller = ARViewController(configuration: .default)
+    private let object = ARObjectReference(.tinuuid("YOUR-TINUUID"), with: nil)
 
     var body: some View {
-        ARView(controller: controller)
-            .onAppear {
-                Task {
-                    try? await controller.add(
-                        objectId: UUID(uuidString: "YOUR-OBJECT-UUID")!,
-                        materialId: nil
-                    )
+        Button("Open AR") { controller.isPresented = true }
+            .fullScreenCover(isPresented: $controller.isPresented) {
+                NavigationStack {
+                    ARView(object: object, controller: controller)
                 }
             }
     }
 }
 ```
+
+To add more objects while the view is open, call the controller from the main actor:
+
+```swift
+let instanceId = try await controller.add(tinuuid: "ANOTHER-TINUUID")
+// or: try await controller.add(objectId: UUID(uuidString: "…")!)
+```
+
+`add` returns the instance ID of the placed object, which you can pass to `remove` or `replace`.
 
 ## Documentation
 
