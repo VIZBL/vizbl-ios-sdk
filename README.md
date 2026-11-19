@@ -17,7 +17,9 @@ The SDK handles AR, placement, interaction, and UI automatically.
 ## Requirements
 
 - iOS 18.0 or later
-- Xcode 26 or later (the binary is built with Swift 6.4; older Xcode versions cannot import it)
+- Xcode 26.4 or later
+
+> **Use 0.1.0 for now.** The 1.0.23 binary was built with a beta Xcode and does not link with release Xcode 26.x. A rebuilt 1.0.24 is coming; until then pin `0.1.0`.
 - A physical device: AR does not run in the simulator
 - Camera permission (`NSCameraUsageDescription`) in your app's Info.plist
 
@@ -36,14 +38,14 @@ In Xcode:
 https://github.com/VIZBL/vizbl-ios-sdk
 ```
 
-3. Select a version rule: **Up to Next Major** from `1.0.23` (the current release; tags have no `v` prefix)
+3. Select a version rule: **Exact Version** `0.1.0` (tags have no `v` prefix)
 4. Select the product `VizblKit`
 
 Or in `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/VIZBL/vizbl-ios-sdk.git", from: "1.0.23")
+    .package(url: "https://github.com/VIZBL/vizbl-ios-sdk.git", exact: "0.1.0")
 ]
 ```
 
