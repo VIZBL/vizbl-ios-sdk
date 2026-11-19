@@ -1,8 +1,8 @@
-Copyright (c) 2026 Vizbl Systems, Inc.
+Copyright (c) 2026 Vizbl
 
 Vizbl iOS SDK License
 
-This software is provided by Vizbl Systems, Inc. ("Vizbl") as a proprietary SDK.
+This software is provided by Vizbl as a proprietary SDK.
 
 Permission is granted to use the SDK solely for integrating Vizbl services
 into applications.
@@ -21,5 +21,3 @@ The SDK requires connection to Vizbl cloud services to function.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 Vizbl reserves the right to modify or revoke access to the SDK at any time.
-
-Questions about licensing: info@vizbl.com

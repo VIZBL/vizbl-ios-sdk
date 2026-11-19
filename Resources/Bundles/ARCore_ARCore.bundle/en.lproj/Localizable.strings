@@ -8,11 +8,9 @@
 
 // MARK: - Common
 
-"cancel" = "Cancel";
 
 // MARK: - ARMainView
 
-"ARMainView.prepare" = "Slowly move your camera around the room to detect a wall and place the item";
 "ARMainView.prepare.all" = "Slowly move your camera around the room to detect a wall and place the item";
 "ARMainView.prepare.floor" = "Slowly move your camera across the floor to place the item";
 "ARMainView.prepare.wall" = "Slowly move your camera around the room to detect a wall and place the item";
@@ -70,7 +68,7 @@
 
 // MARK: - Scene Preparation
 
-"ScenePreparation.preparing" = "Preparing the scene…";
+"ScenePreparation.downloading" = "Downloading AR data…";
 "ScenePreparation.networkRetry" = "Network issue, trying again…";
 "ScenePreparation.object" = "Object";
 "ScenePreparation.objects" = "Objects";
@@ -94,3 +92,27 @@
 // MARK: - Room Scan
 
 "RoomScan.noData" = "No scan data";
+
+// MARK: - Scene hints (3D-подсказки в сцене)
+
+"Hints.lookDown" = "LOOK DOWN";
+"Hints.lookUp" = "LOOK UP";
+"Hints.moveYourPhone" = "SCAN THE FLOOR";
+"Hints.scanCeiling" = "SCAN THE CEILING";
+"Hints.slowDown" = "SLOW DOWN";
+"Hints.tooDark" = "TOO DARK";
+"Hints.tapToPlace" = "TAP TO PLACE";
+"Hints.tapToHang" = "TAP TO HANG";
+"Hints.aimAtWall" = "AIM AT A WALL";
+"Hints.swipeToTurn" = "SWIPE TO ROTATE";
+"Hints.tapToEdit" = "TAP TO EDIT";
+"Hints.dragItem" = "DRAG TO MOVE";
+"Hints.dragDot" = "DRAG THE DOT";
+"Hints.finishEditing" = "TAP TO FINISH";
+"Hints.stepBack" = "STEP BACK";
+"Hints.turnLeft" = "TURN LEFT";
+"Hints.turnRight" = "TURN RIGHT";
+"Hints.aimDot" = "AIM AT THE BOTTOM OF A WALL";
+"Hints.aimDotTap" = "TAP TO MARK THE WALL";
+"Hints.swipeUpToCeiling" = "SWIPE UP TO THE CEILING";
+"Hints.tapToSet" = "TAP TO SET HEIGHT";
