@@ -17,7 +17,7 @@ The SDK handles AR, placement, interaction, and UI automatically.
 ## Requirements
 
 - iOS 18.0 or later
-- Xcode 16 or later (the framework is built with library evolution enabled, so newer Xcode versions work too)
+- Xcode 26 or later (the binary is built with Swift 6.4; older Xcode versions cannot import it)
 - A physical device: AR does not run in the simulator
 - Camera permission (`NSCameraUsageDescription`) in your app's Info.plist
 
