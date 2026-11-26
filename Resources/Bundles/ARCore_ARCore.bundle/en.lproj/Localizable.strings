@@ -104,6 +104,7 @@
 "Hints.tapToPlace" = "TAP TO PLACE";
 "Hints.tapToHang" = "TAP TO HANG";
 "Hints.aimAtWall" = "AIM AT A WALL";
+"Hints.anySurface" = "LOOK AT ANY SURFACE";
 "Hints.swipeToTurn" = "SWIPE TO ROTATE";
 "Hints.tapToEdit" = "TAP TO EDIT";
 "Hints.dragItem" = "DRAG TO MOVE";

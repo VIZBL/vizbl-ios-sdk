@@ -36,14 +36,14 @@ In Xcode:
 https://github.com/VIZBL/vizbl-ios-sdk
 ```
 
-3. Select a version rule: **Up to Next Major Version** from `1.0.27` (tags have no `v` prefix)
+3. Select a version rule: **Up to Next Major Version** from `2.0.0` (tags have no `v` prefix)
 4. Select the product `VizblKit`
 
 Or in `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/VIZBL/vizbl-ios-sdk.git", from: "1.0.27")
+    .package(url: "https://github.com/VIZBL/vizbl-ios-sdk.git", from: "2.0.0")
 ]
 ```
 

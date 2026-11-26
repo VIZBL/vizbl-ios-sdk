@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VizblKit",
-            url: "https://github.com/VIZBL/vizbl-ios-sdk/releases/download/1.0.27/VizblKit.xcframework.zip",
-            checksum: "3b54c27c77d068da261f32d950044c5146a5fa235b692c75a8143e5be422220b"
+            url: "https://github.com/VIZBL/vizbl-ios-sdk/releases/download/2.0.0/VizblKit.xcframework.zip",
+            checksum: "9d49c428624bf52dc3ff80877aa32c96baacbdd985a9c7bedbadf48b582ee416"
         ),
         .target(
             name: "VizblKitResources",
